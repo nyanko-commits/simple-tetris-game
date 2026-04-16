@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tetris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-board-wrapper">
+            <canvas id="tetris" width="240" height="400"></canvas>
+        </div>
+        <div class="stats">
+            <div class="stat-item">
+                <div class="label">SCORE</div>
+                <div id="score">0</div>
+            </div>
+            <div class="controls-info">
+                <p>← → : 移動</p>
+                <p>↑ : 回転</p>
+                <p>↓ : ソフトドロップ</p>
+                <p>Space : ハードドロップ</p>
+            </div>
+        </div>
+    </div>
+    <script src="tetris.js"></script>
+</body>
+</html>
